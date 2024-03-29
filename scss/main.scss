@@ -1,0 +1,35 @@
+@import "themes";
+
+html, body, #__nuxt {
+  height: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-text);
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1160px;
+  padding: 0 15px;
+}
+
+.main-container {
+  flex-grow: 1;
+  width: 100%;
+}

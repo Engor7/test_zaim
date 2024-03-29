@@ -1,0 +1,35 @@
+$dark-color-background: #141718;
+$dark-color-text: #fff;
+$dark-border-color: #eee;
+$dark-color-background-offer-one: #343839;
+$dark-color-background-offer-two: #232627;
+$dark-color-background-footer: #000;
+$dark-color-background-offer-img: rgba(255, 255, 255, 0.05);
+
+$light-color-background: #dedede;
+$light-color-text: #111;
+$light-border-color: #333;
+$light-color-background-offer-one: #ffffff;
+$light-color-background-offer-two: #c3c3c3;
+$light-color-background-footer: #bbb;
+$light-color-background-offer-img: rgb(61 61 61 / 5%);
+
+:root {
+  --color-background: #{$dark-color-background};
+  --color-text: #{$dark-color-text};
+  --color-border: #{$dark-border-color};
+  --color-background-offer-one: #{$dark-color-background-offer-one};
+  --color-background-offer-two: #{$dark-color-background-offer-two};
+  --color-background-footer: #{$dark-color-background-footer};
+  --color-background-offer-img: #{$dark-color-background-offer-img};
+}
+
+[data-theme='light'] {
+  --color-background: #{$light-color-background};
+  --color-text: #{$light-color-text};
+  --color-border: #{$light-border-color};
+  --color-background-offer-one: #{$light-color-background-offer-one};
+  --color-background-offer-two: #{$light-color-background-offer-two};
+  --color-background-footer: #{$light-color-background-footer};
+  --color-background-offer-img: #{$light-color-background-offer-img};
+}
